@@ -1,7 +1,4 @@
-# Script Catalog
-
-Each script below has a single clear purpose. Run any script without required arguments to see its usage message.
-
+# FFmpeg Bash Scripts
 ## 01 Download
 
 - `scripts/01_download/download_hls_stream.sh`
@@ -302,3 +299,8 @@ Usage: `./scripts/09_tiling/upscale_video_by_tiles_and_reassemble.sh <input> <ro
 Purpose: Enhance audio in audio/video files with denoise, tone shaping, dynamics control, and optional loudness normalization.
 Usage: `./scripts/10_audio/enhance_audio_track_ffmpeg.sh <input> [output] [profile] [audio_codec] [audio_quality]`
 Notes: Profiles are `subtle`, `balanced`, `voice`, and `strong`. Video streams are copied while audio is replaced with the enhanced track.
+
+
+### Attribution
+
+Thanks to FFmpeg https://github.com/FFmpeg/FFmpeg
